@@ -1,9 +1,9 @@
 inomscript
 ========
 a text parser... 
-- :) that converts code or inomscript
-- 8) to runnable rustlang 
-- &) for flow-based devgramming!
+- that converts code or inomscript 8)
+- to runnable rustlang &)
+- for flow-based devgramming :)
 
 part of ecosystem...
 - [fbp :: sync :: subvind/inomscript](https://github.com/subvind/inomscript)
