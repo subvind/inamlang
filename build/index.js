@@ -4,9 +4,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _json = _interopRequireDefault(require("./parser/json.js"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _json = require("./parser/json.js");
 var _default = {
-  jsonParser: _json.default
+  parseJson: _json.parseJson
 };
 exports.default = _default;
