@@ -1,5 +1,6 @@
 {
   "name": "inom",
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
