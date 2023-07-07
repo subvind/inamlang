@@ -1,0 +1,11 @@
+{
+  "name": "inom",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chevrotain": "^10.5.0",
+    "mocha": "^10.2.0"
+  }
+}

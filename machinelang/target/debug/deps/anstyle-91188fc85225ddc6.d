@@ -1,0 +1,12 @@
+/Users/subvind/Projects/inomscript/target/debug/deps/anstyle-91188fc85225ddc6.rmeta: /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/lib.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/macros.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/color.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/effect.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/reset.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/style.rs
+
+/Users/subvind/Projects/inomscript/target/debug/deps/libanstyle-91188fc85225ddc6.rlib: /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/lib.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/macros.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/color.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/effect.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/reset.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/style.rs
+
+/Users/subvind/Projects/inomscript/target/debug/deps/anstyle-91188fc85225ddc6.d: /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/lib.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/macros.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/color.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/effect.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/reset.rs /Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/style.rs
+
+/Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/lib.rs:
+/Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/macros.rs:
+/Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/color.rs:
+/Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/effect.rs:
+/Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/reset.rs:
+/Users/subvind/.cargo/registry/src/index.crates.io-6f17d22bba15001f/anstyle-1.0.1/src/style.rs:
