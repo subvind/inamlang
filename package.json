@@ -1,5 +1,10 @@
 {
-  "name": "inom",
+  "name": "inomlang",
+  "author": "Travis Burandt <travis.burandt@gmail.com> (https://subvind.com)",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://subvind.com",
+  "license": "Fair Source 25 (v0.9).",
   "type": "module",
   "scripts": {
     "test": "mocha"
