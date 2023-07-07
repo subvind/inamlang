@@ -1,5 +1,5 @@
-import jsonParser from './parser/json.js'
+import { parseJson } from './parser/json.js'
 
 export default {
-    jsonParser
+    parseJson
 }
