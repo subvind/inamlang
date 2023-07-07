@@ -7,11 +7,18 @@
   "license": "Fair Source 25 (v0.9).",
   "type": "module",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "npx babel transpiler --out-dir build"
   },
+  "main": "build/index.js",
   "dependencies": {
     "assert": "^2.0.0",
     "chevrotain": "^10.5.0",
     "mocha": "^10.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.6",
+    "@babel/core": "^7.22.8",
+    "@babel/plugin-transform-modules-commonjs": "^7.22.5"
   }
 }
