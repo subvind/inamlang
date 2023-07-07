@@ -5,7 +5,7 @@
   "description": "",
   "homepage": "https://subvind.com",
   "license": "Fair Source 25 (v0.9).",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "mocha",
     "build": "npx babel transpiler --out-dir build"
