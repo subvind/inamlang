@@ -5,5 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _analyzeEvaluate = require("./process/analyze-evaluate.js");
-var _default = _analyzeEvaluate.process;
+var _default = {
+  transpile: _analyzeEvaluate.process
+};
 exports.default = _default;

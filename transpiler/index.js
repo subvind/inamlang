@@ -1,3 +1,5 @@
 import { process } from './process/analyze-evaluate.js'
 
-export default process
+export default {
+  transpile: process
+}
