@@ -20,7 +20,6 @@ export function process (text) {
   return {
     value: value,
     lexErrors: lexResult.errors,
-    parseErrors: parser.errors,
-    source: JSON.stringify(value, null, 2)
+    parseErrors: parser.errors
   }
 }
