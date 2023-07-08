@@ -1,7 +1,3 @@
-import { parseJson } from './parser/json.js'
-import { interpreterJson } from './interpreter/json.js'
+import { process } from './process/analyze-evaluate.js'
 
-export default {
-    parseJson,
-    interpreterJson
-}
+export default process

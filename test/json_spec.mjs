@@ -1,20 +1,17 @@
-import { parseJson } from "../transpiler/parser/json.js"
-import { interpreterJson } from "../transpiler/interpreter/json.js"
-
 import assert from "assert"
+import transpiler from "../transpiler/index.js"
 
-describe("The ability to use Chevrotain using modern ECMAScript", () => {
-  it("works with ESM", () => {
+describe("The ability to use Chevrotain", () => {
+  it("works with json", () => {
     const inputText = '< :arr:~ #1,2,3+, :obj:~ < :num:~ 666 >>'
     const outputText = '{ "arr": [1,2,3], "obj": { "num": 666 }}'
-    const lexAndParseResult = parseJson(inputText)
+    const result = transpiler(inputText)
 
-    console.log(lexAndParseResult.lexErrors)
-    assert.equal(lexAndParseResult.lexErrors.length, 0)
-    assert.equal(lexAndParseResult.parseErrors.length, 0)
-
-    const interpretResult = interpreterJson(lexAndParseResult.cst)
-    console.log('interpretResult', interpretResult)
-    assert.equal(inputText, outputText)
+    console.log(result.lexErrors)
+    assert.equal(result.lexErrors.length, 0)
+    assert.equal(result.parseErrors.length, 0)
+    
+    console.log(result.source)
+    assert.equal(outputText, result.source)
   })
 })
