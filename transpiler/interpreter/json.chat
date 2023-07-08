@@ -1,0 +1,11 @@
+write an example interpreter in chevrotain js that uses the visitor pattern...
+
+compile this new language:
+```
+< :arr:~ #1,2,3+, :obj:~ < :num:~ 666 >>
+```
+
+into valid json code:
+```
+{ "arr": [1,2,3], "obj": { "num": 666 }}
+```
