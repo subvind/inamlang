@@ -1,11 +1,11 @@
 {
   "name": "inomlang",
   "author": "Travis Burandt <travis.burandt@gmail.com> (https://subvind.com)",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "homepage": "https://subvind.com",
   "license": "Fair Source 25 (v0.9).",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "mocha",
     "build": "npx babel transpiler --out-dir build"
