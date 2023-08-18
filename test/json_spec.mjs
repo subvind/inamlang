@@ -1,7 +1,7 @@
 import assert from "assert"
 import transpiler from "../transpiler/index.js"
 
-describe("INOMLANG", () => {
+describe("INAMLANG", () => {
   it("compiles data to json formatted data", () => {
     const inputText = '< :arr:~ #1,2,3+, :obj:~ < :num:~ 666 > >'
     const outputText = '{"arr":[1,2,3],"obj":{"num":666}}'

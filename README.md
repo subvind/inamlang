@@ -1,16 +1,16 @@
-inomlang
+inamlang
 ========
 a lexer, parser, and interpreter... 
-- that converts code or inomscript 8)
+- that converts code or inamscript 8)
 - to runnable rustlang &)
 - for flow-based devgramming :)
 
 part of ecosystem...
-- [fbd :: sync :: subvind/inomlang](https://github.com/subvind/inomlang)
+- [fbd :: sync :: subvind/inamlang](https://github.com/subvind/inamlang)
 - [www :: top :: subvind/ucimecu](https://github.com/subvind/ucimecu)
 - [server :: backend :: subvind/isisis](https://github.com/subvind/isisis)
 - [client :: frontend :: subvind/autoide](https://github.com/subvind/autoide)
-- [cli :: npm :: subvind/inom](https://github.com/subvind/inom)
+- [cli :: npm :: subvind/inam](https://github.com/subvind/inam)
 
 todo...
-- from node to node between anchors over edges transmit inomlang
+- from node to node between anchors over edges transmit inamlang
