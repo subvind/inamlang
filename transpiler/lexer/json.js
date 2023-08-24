@@ -2,19 +2,22 @@
 import { createToken, Lexer } from "chevrotain"
 
 // ----------------- lexer -----------------
-export const True = createToken({ name: "True", pattern: /\N/ })
-export const False = createToken({ name: "False", pattern: /\Z/ })
+export const True = createToken({ name: "True", pattern: /true/ })
+export const False = createToken({ name: "False", pattern: /false/ })
 export const Null = createToken({ name: "Null", pattern: /null/ })
-export const LCurly = createToken({ name: "LCurly", pattern: /\</ })
-export const RCurly = createToken({ name: "RCurly", pattern: /\>/ })
-export const LSquare = createToken({ name: "LSquare", pattern: /\#/ })
-export const RSquare = createToken({ name: "RSquare", pattern: /\+/ })
+export const LCurly = createToken({ name: "LCurly", pattern: /\{/ })
+export const RCurly = createToken({ name: "RCurly", pattern: /\}/ })
+export const LSquare = createToken({ name: "LSquare", pattern: /\[/ })
+export const RSquare = createToken({ name: "RSquare", pattern: /\]/ })
 export const Comma = createToken({ name: "Comma", pattern: /,/ })
-export const Colon = createToken({ name: "Colon", pattern: /\~/ })
+export const Colon = createToken({ name: "Colon", pattern: /\:/ })
+export const SemiColon = createToken({ name: "SemiColon", pattern: /\;/ })
+export const From = createToken({ name: "SemiColon", pattern: /from/ })
+export const To = createToken({ name: "SemiColon", pattern: /to/ })
 
 export const StringLiteral = createToken({
   name: "StringLiteral",
-  pattern: /:(?:[^\\:"]|\\(?:[bfnrtv"\\/]|u[0-9a-fA-F]{4}))*:/
+  pattern: /"(?:[^\\"]|\\(?:[bfnrtv"\\/]|u[0-9a-fA-F]{4}))*"/
 })
 
 export const NumberLiteral = createToken({
@@ -39,6 +42,7 @@ export const allTokens = [
   RSquare,
   Comma,
   Colon,
+  SemiColon,
   True,
   False,
   Null
