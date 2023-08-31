@@ -1,17 +1,12 @@
-inamlang
+Fair Source 5 (v0.9).
 ========
-a lexer, parser, and interpreter... 
-- that converts code or inamscript 8)
-- to runnable rustlang &)
-- for flow-based devgramming :)
+Source code to an Enterprise Resource Planning (ERP) system...
 
-part of ecosystem...
-- [fbd :: sync :: subvind/inamlang](https://github.com/subvind/inamlang)
-- [www :: top :: subvind/ucimecu](https://github.com/subvind/ucimecu)
-- [server :: backend :: subvind/isisis](https://github.com/subvind/isisis)
-- [client :: frontend :: subvind/autoide](https://github.com/subvind/autoide)
-- [cli :: npm :: subvind/inam](https://github.com/subvind/inam)
+Not open source. Not closed source. The Fair Source License allows everyone to see the source code and makes the software free to use for a limited number of users in your organization. It offers some of the benefits of open source while preserving the ability to charge for the software. https://fair.io
 
-todo...
-- keep package.json module type to commonjs when not running tests
-- from node to node between anchors over edges transmit inamlang
+powered by subvind...
+- project homepage: https://subvind.com
+- purchase project: https://istrav.com
+
+system...
+- root project: https://github.com/subvind/subvind
